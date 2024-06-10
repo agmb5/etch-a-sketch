@@ -15,3 +15,19 @@ h1, #button1, #button2, .container{
     flex-direction: column;
     
 }
+
+.biggerChild{
+    flex-grow: 1;
+    flex-basis: auto;
+    display: flex;
+}
+
+.smallerChild{
+    flex-basis: auto;
+    flex-grow: 1;
+    border: 1px solid;
+}
+
+.smallerChild:hover{
+    background-color: gray;
+}
