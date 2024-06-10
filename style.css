@@ -1,0 +1,17 @@
+h1, #button1, #button2, .container{
+    display: flex;
+    justify-content: center;
+}
+
+#button2, #button1{
+    margin-top: 10px;
+}
+
+#parentDiv{
+    display: flex;
+    width: 800px;
+    height: 800px;
+    border: 2px solid;
+    flex-direction: column;
+    
+}
